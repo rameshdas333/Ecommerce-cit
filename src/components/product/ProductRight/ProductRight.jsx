@@ -27,6 +27,12 @@ const ProductRight = () => {
 
   return (
     <div className=''>
+    <div className='pb-4'>
+       <input className='py-2 px-5 border w-[400px]  rounded-2xl' type="text" placeholder='search' />
+    </div>
+ 
+
+  
       <div className="grid grid-cols-3 gap-[30px]">
         {currentProducts.map((product, idx) => (
           <Link to={`/product/${product.id}`} key={idx}>

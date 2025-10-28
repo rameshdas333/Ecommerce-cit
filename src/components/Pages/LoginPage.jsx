@@ -31,7 +31,7 @@ const handlePassword =(e)=>{
     setEmailError("Enter your email address")
   }else{
     if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){
-       setEmailError("You email not validate.")
+       setEmailError("Your email not validate.")
     }
      
   }
