@@ -2,6 +2,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import banner from '../../assets/banner.jpg'
+import banner2 from '../../assets/banner2.png'
+import banner3 from '../../assets/banner3.png'
 
 
 const BannerRight = () => {
@@ -12,6 +14,10 @@ const BannerRight = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows:false,
+    autoplay: true,
+    autoplaySpeed: 2000, 
+    pauseOnHover: true,
+
   };
     return (
    <div className="w-[80%] pt-10 pl-10">
@@ -20,10 +26,10 @@ const BannerRight = () => {
        <img className="w-full" src={banner} alt="" />
       </div>
       <div>
-         <img className="w-full" src={banner} alt="" />
+         <img className="w-full" src={banner2} alt="" />
       </div>
       <div>
-         <img className="w-full" src={banner} alt="" />
+         <img className="w-full" src={banner3} alt="" />
       </div>
      
     </Slider>

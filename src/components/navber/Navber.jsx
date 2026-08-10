@@ -1,5 +1,5 @@
 
-import logo from  "../../assets/logo.png"
+import logo from  "../../assets/logo1.png"
 import { CiHeart} from "react-icons/ci";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { Link } from 'react-router-dom';
@@ -18,9 +18,9 @@ const Navbar = () => {
     // console.log(cartlength)
     return (
       <nav className=" pt-[42px] pb-[14px]  border-b-[2px] border-[#D9D9D9]">
-        <div className='w-[1170px] mx-auto flex items-center justify-center'>
-          <div className="w-[20%]">
-            <img src={logo} alt="" />
+        <div className='w-[1170px] mx-auto flex items-center justify-between'>
+          <div className="w-[10%] ">
+            <img className="h-16 Okay, so the United Nations subject is going to try this airplane was a while to react Pradesh Pradesh the latest was so the United Nations was trying to share hardware case of hardware session to Japan or English platform. Talked border rounded-2xl " src={logo} alt="" />
           </div>
 
           <div className="w-[40%]">
