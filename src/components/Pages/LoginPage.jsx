@@ -118,7 +118,7 @@ transition={Bounce}
         
             <button
               type="button"
-              className="w-full border border-gray-400 py-2 rounded-md flex items-center justify-center gap-2 mt-2"
+              className="w-full border border-gray-500 py-2 rounded-md flex items-center justify-center gap-2 mt-2"
             >
               <FcGoogle />
               Sign up with Google
