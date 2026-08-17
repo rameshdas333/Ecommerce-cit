@@ -5,7 +5,7 @@ import { FiSend } from 'react-icons/fi';
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-10 px-5 md:px-20">
+    <footer className="bg-black text-white py-9 px-5 md:px-20">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-10 border-b border-gray-700 pb-10">
         
         {/* Exclusive */}
