@@ -8,8 +8,10 @@ const Category = () => {
 
 
     return (
-      <div className="pt-[153px] pb-[95px]">
+      <div className="pt-20 pb-[95px] ">
         <Container>
+          <div className='pt-10 relative after:absolute after:content-[" "] after:bg-[#D9D9D9] after:h-[1px] after:w-full   after:top-0 after:left-0 '></div>
+
           <div className="flex items-center gap-2 pb-5">
             <div className="w-5 h-10 bg-[#DB4444] rounded-[4px]"></div>
             <p className="text-red-500 font-semibold ">Categories</p>

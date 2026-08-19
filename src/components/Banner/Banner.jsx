@@ -7,7 +7,7 @@ const Banner = () => {
     return (
        <section>
        <Container>
-        <div className='flex'>
+        <div className='flex '>
            <BannerLeft/>
         <BannerRight/>
         </div>
