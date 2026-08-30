@@ -8,7 +8,7 @@ const Category = () => {
 
 
     return (
-      <div className="pt-20 pb-[96px] ">
+      <div className="pt-20 pb-[95px] ">
         <Container>
           <div className='pt-10 relative after:absolute after:content-[" "] after:bg-[#D9D9D9] after:h-[1px] after:w-full   after:top-0 after:left-0 '></div>
 
