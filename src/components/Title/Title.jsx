@@ -11,7 +11,7 @@ const Title = ({name,title}) => {
             <p className="text-red-500 font-semibold ">{name}</p>
           </div>
       
-             <h2 className="text-4xl font-semibold font-secoundary mb-5">
+             <h2 className="text-[30px] md:text-4xl font-semibold font-secoundary mb-5">
           {title}
           </h2>
         

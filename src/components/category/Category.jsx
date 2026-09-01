@@ -16,7 +16,7 @@ const Category = () => {
             <div className="w-5 h-10 bg-[#DB4444] rounded-[4px]"></div>
             <p className="text-red-500 font-semibold ">Categories</p>
           </div>
-          <h2 className="text-4xl font-semibold font-secoundary mb-5">
+          <h2 className="text-[30px] md:text-4xl font-semibold font-secoundary mb-5">
             Browse By Category
           </h2>
           {/* slive */}

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const CartTotal = ({totalPrice,total,discount}) => {
   return (
-    <div className="border rounded p-4 w-[400px]">
+    <div className="border rounded p-4 md:w-[400px]">
       <h2 className="font-semibold text-lg my-6">Cart Total</h2>
       <div className="flex justify-between mb-2">
         <span>Subtotal:</span>

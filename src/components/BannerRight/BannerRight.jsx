@@ -20,7 +20,7 @@ const BannerRight = () => {
 
   };
     return (
-   <div className="w-[80%] pt-10 pl-10">
+   <div className="md:w-[80%] pt-10 md:pl-10">
          <Slider {...settings}>
       <div>
        <img className="w-full" src={banner} alt="" />

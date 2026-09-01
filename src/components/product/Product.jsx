@@ -8,12 +8,12 @@ const Product = () => {
     return (
         <div className='mt-20'>
           <Container>
-           <div className='flex '>
-              <div className='w-[30%]'>
+           <div className='md:flex '>
+              <div className='md:w-[30%]'>
                <ProductLeft/>
             </div>
 
-            <div className='w-[70%]'>
+            <div className='md:w-[70%]'>
 
               <ProductRight/>
               

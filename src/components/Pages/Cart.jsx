@@ -69,7 +69,7 @@ setCouponText(e.target.value)
           />
 
           <div className="mt-20 mb-20 space-y-3">
-            <div className=" rounded flex items-center justify-around  py-6 shadow-[0_1px_13px_rgba(0,0,0,0.25)] ">
+            <div className=" rounded flex items-center justify-between px-5 py-6 shadow-[0_1px_13px_rgba(0,0,0,0.25)] ">
               <p className="">Product</p>
               <p className="ml-48">Price</p>
               <p className="ml-24">Quantity</p>
@@ -127,12 +127,12 @@ setCouponText(e.target.value)
 
             {/* cart total components */}
 
-            <div className="flex  justify-between">
+            <div className="md:flex  justify-between pt-6 md:pt-0">
               <div>
                 <input
                   onChange={handleChange}
                   name="coupon"
-                  className="text-base font-primary border overflow-hidden rounded w-[300px] py-4 px-6 mr-4"
+                  className="text-base font-primary border overflow-hidden rounded md:w-[300px] py-4 px-6 mr-4"
                   type="text"
                   placeholder="Coupon Code"
                 />
@@ -140,7 +140,7 @@ setCouponText(e.target.value)
                 {/* <Button onClick={handleApplyCoupon} name='Apply Coupon'/> */}
                 <button
                   onClick={handleApplyCoupon}
-                  className="bg-red-500 text-white px-12 py-4 rounded-[4px]">
+                  className="bg-red-500 text-white px-12 py-4 rounded-[4px] my-5 md:my-0">
                   Apply Coupon
                 </button>
               </div>

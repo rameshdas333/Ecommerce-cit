@@ -33,7 +33,7 @@ const NewArrival = () => {
         <div>
             <Container>
                 <div>
-                    <Title name="Featured" title="New Arrival"/>
+                    <Title name="Featured" title="New Arrival"  titleSize="text-[30px]"/>
                     <div className='grid grid-cols-4 gap-[30px]'>
                         <div className='col-span-2'>
                             <img className='w-[570px]' src={Frame1} alt="" />
@@ -52,7 +52,7 @@ const NewArrival = () => {
 
                     {/* service part  */}
 
-                    <div className='grid grid-cols-3 w-[970px] my-[174px] mx-auto  gap-[88px]'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 md:w-[970px] my-[174px] mx-auto  gap-[88px]'>
                      {
                         services.map((service,idx) =>(
                             <div key={idx} className='flex  flex-col items-center justify-center'>

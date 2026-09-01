@@ -18,7 +18,26 @@ const CategorySlide = () => {
     slidesToScroll: 6,
     arrows:true,
     nextArrow:<NextArrows/>,
-    prevArrow:<PrevArrows/>
+    prevArrow:<PrevArrows/>,
+
+    responsive: [
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          arrows: false,
+        },
+      },
+    ],
 
   };
   return (
@@ -28,7 +47,7 @@ const CategorySlide = () => {
       <Slider {...settings}>
         <div>
            <div className="group">
-              <div className="border  group-hover:bg-red-400 flex flex-col justify-center items-center py-6 border-black/30  w-[170px] h-[145px] rounded ">
+              <div className="border group-hover:bg-red-400 flex flex-col justify-center items-center py-6 border-black/30  w-[170px] h-[145px] rounded ">
                 <svg
                   className="group-hover:text-white"
                   width="56"
