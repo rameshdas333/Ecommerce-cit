@@ -21,9 +21,9 @@ const Navbar = () => {
     // console.log(cartlength)
     return (
       <nav className=" pt-[42px] pb-[14px]  border-b-[2px] border-[#D9D9D9]">
-        <div className='max-w-[1170px] mx-auto md:flex items-center justify-between px-5 md:px-0'>
-          <div className="w-full md:w-[10%] flex items-center justify-between">
-            <img className="h-16 Okay, so the United Nations subject is going to try this airplane was a while to react Pradesh Pradesh the latest was so the United Nations was trying to share hardware case of hardware session to Japan or English platform. Talked border rounded-2xl " src={logo} alt="" />
+        <div className='max-w-[1170px] mx-auto lg:flex items-center justify-between px-5 lg:px-0'>
+          <div className="w-full lg:w-[10%] flex items-center justify-between">
+            <img className="h-16 border rounded-2xl " src={logo} alt="" />
             <GiHamburgerMenu  size={28} className="text-black lg:hidden"
             onClick={() => setShow(!show)}
             />
@@ -87,7 +87,7 @@ const Navbar = () => {
         </div>
         {
            show &&
-           (<div className='max-w-[1170px] mx-auto md:flex items-center justify-between px-5 bg-[#DB4444] py-6 mt-5'>
+           (<div className='max-w-[1170px] mx-auto lg:flex items-center justify-between px-5 bg-[#DB4444] py-6 mt-5'>
              <div className="">
                <ul className=" text-center">
                  <li className='text-base text-white'>

@@ -33,7 +33,7 @@ const ProductRight = () => {
  
 
   
-      <div className="grid md:grid-cols-3 gap-[30px]">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-[30px]">
         {currentProducts.map((product, idx) => (
           <Link to={`/product/${product.id}`} key={idx}>
             <div className="bg-[#F5F5F5] group rounded relative flex items-center justify-center w-[270px] h-[250px]">

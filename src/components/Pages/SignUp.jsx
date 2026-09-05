@@ -81,7 +81,7 @@ theme="dark"
 transition={Bounce}
 />
       {/* Left side image section */}
-      <div className="md:w-1/2 bg-blue-50 flex items-center justify-center">
+      <div className="md:w-1/2 bg-blue-50 flex items-center justify-center pt-6 md:pt-0">
  
         <img
           src={signupImg}
@@ -91,7 +91,7 @@ transition={Bounce}
       </div>
 
       {/* Right side form section */}
-      <div className="md:w-1/2 flex items-center justify-center px-8">
+      <div className="md:w-1/2 flex items-center justify-center px-8 py-7 md:py-0">
         <div className="w-full max-w-md">
           <h2 className="text-2xl font-semibold text-gray-900 mb-6">Create an account</h2>
           <p className="text-sm text-gray-600 mb-4">Enter your details below</p>

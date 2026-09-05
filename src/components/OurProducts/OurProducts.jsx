@@ -77,7 +77,7 @@ const OurProducts = () => {
           <div className="pb-[122px] pt-[120px]">
             <Title name="This Month" title="Best Selling Products" titleSize="text-[30px]"/>
 
-            <div className="flex flex-wrap gap-[30px]">
+            <div className="flex flex-wrap gap-[30px] justify-center md:justify-center">
               {
               products.slice(0, visible).map((product, idx) => (
                 <div key={idx} className=" ">

@@ -16,7 +16,7 @@ const BestSellingProduct = () => {
             <Container>
                 <div className='pb-[122px]  relative after:absolute after:content-[" "] after:bg-[#D9D9D9] after:h-[1px] after:w-full   after:top-0 after:left-0 '>
                     <Title   name="This Month" title='Best Selling Products' />
-                   <div className='grid md:grid-cols-4 gap-[30px]'>
+                   <div className='grid sm:grid-cols-2 md:grid-cols-4 gap-[30px] justify-items-center md:justify-items-start'>
                  <div>
                        <div className= 'bg-[#F5F5F5] relative flex items-center justify-center w-[270px] h-[250px]'>
                         <img src={coat} alt="" />

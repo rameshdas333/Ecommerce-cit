@@ -22,18 +22,26 @@ const CategorySlide = () => {
 
     responsive: [
       {
-        breakpoint: 640,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          arrows: false,
-        },
-      },
-      {
         breakpoint: 768,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
+          arrows: true,
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 300,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
           arrows: false,
         },
       },
